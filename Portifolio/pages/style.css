@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #EAEBE7;
+    font-family: 'Miriam Libre', sans-serif;
+    color: 333333;
+}
+.bg{
+    width: 100%;
+    margin-top: 50px;
+}
+.icon {
+    width: 25px;
+    height: 25px;
+}
+.nav-bar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px;
+    
+    margin: 20px ;
+    list-style: none;
+}
+.navIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    color: #333333;
+}
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+}
+.content h3 {
+    color: #10AEDB;
+}
+.content p {
+    margin-top: 30px;
+}
+.social-net {
+    margin-top: 70px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 250px;
+    height: 200px;
+
+    box-shadow: 30px 30px 0px 20px black;
+    
+}
+.icon-social {
+    width: 40px;
+    height: 40px;
+    
+    
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 70px;
+
+    font-size: 1.3em;
+
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 0px black;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.button:hover {
+    border: 2px solid #10AEDB;
+    box-shadow: 4px 4px 0px #10AEDB;
+    transform: scale(0.98);
+}
