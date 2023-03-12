@@ -183,4 +183,5 @@ input:focus{
 #send-btn:hover {
     opacity: 80%;
     transform: scale(0.99);
+    
 }
